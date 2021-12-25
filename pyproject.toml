@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "generate btc privatekey"
+version = "0.1.0"
+description = ""
+authors = ["Bas Dorsman <superbas1996@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+blocksmith = "^1.2.1"
+base58 = "^2.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
